@@ -112,27 +112,27 @@ public:
         del->setGeometry(QRect(220, 240, 61, 31));
 
         retranslateUi(miancalc);
-        QObject::connect(lbracket, SIGNAL(clicked()), miancalc, SLOT(Btn_onClick()));
-        QObject::connect(rbracket, SIGNAL(clicked()), miancalc, SLOT(Btn_onClick()));
-        QObject::connect(add, SIGNAL(clicked()), miancalc, SLOT(Btn_onClick()));
-        QObject::connect(sub, SIGNAL(clicked()), miancalc, SLOT(Btn_onClick()));
-        QObject::connect(num7, SIGNAL(clicked()), miancalc, SLOT(Btn_onClick()));
-        QObject::connect(num8, SIGNAL(clicked()), miancalc, SLOT(Btn_onClick()));
-        QObject::connect(num9, SIGNAL(clicked()), miancalc, SLOT(Btn_onClick()));
-        QObject::connect(times, SIGNAL(clicked()), miancalc, SLOT(Btn_onClick()));
-        QObject::connect(num4, SIGNAL(clicked()), miancalc, SLOT(Btn_onClick()));
-        QObject::connect(num5, SIGNAL(clicked()), miancalc, SLOT(Btn_onClick()));
-        QObject::connect(num6, SIGNAL(clicked()), miancalc, SLOT(Btn_onClick()));
-        QObject::connect(divide, SIGNAL(clicked()), miancalc, SLOT(Btn_onClick()));
-        QObject::connect(num1, SIGNAL(clicked()), miancalc, SLOT(Btn_onClick()));
-        QObject::connect(num2, SIGNAL(clicked()), miancalc, SLOT(Btn_onClick()));
-        QObject::connect(num3, SIGNAL(clicked()), miancalc, SLOT(Btn_onClick()));
-        QObject::connect(ac, SIGNAL(clicked()), miancalc, SLOT(Btn_onClick()));
-        QObject::connect(num0, SIGNAL(clicked()), miancalc, SLOT(Btn_onClick()));
-        QObject::connect(dot, SIGNAL(clicked()), miancalc, SLOT(Btn_onClick()));
-        QObject::connect(equal, SIGNAL(clicked()), miancalc, SLOT(Btn_onClick()));
-        QObject::connect(del, SIGNAL(clicked()), miancalc, SLOT(Btn_onClick()));
-        QObject::connect(equal, SIGNAL(clicked()), miancalc, SLOT(Btn_onClick()));
+        QObject::connect(lbracket, SIGNAL(clicked()), miancalc, SLOT(on_buttons_clicked()));
+        QObject::connect(rbracket, SIGNAL(clicked()), miancalc, SLOT(on_buttons_clicked()));
+        QObject::connect(add, SIGNAL(clicked()), miancalc, SLOT(on_buttons_clicked()));
+        QObject::connect(sub, SIGNAL(clicked()), miancalc, SLOT(on_buttons_clicked()));
+        QObject::connect(num7, SIGNAL(clicked()), miancalc, SLOT(on_buttons_clicked()));
+        QObject::connect(num8, SIGNAL(clicked()), miancalc, SLOT(on_buttons_clicked()));
+        QObject::connect(num9, SIGNAL(clicked()), miancalc, SLOT(on_buttons_clicked()));
+        QObject::connect(times, SIGNAL(clicked()), miancalc, SLOT(on_buttons_clicked()));
+        QObject::connect(num4, SIGNAL(clicked()), miancalc, SLOT(on_buttons_clicked()));
+        QObject::connect(num5, SIGNAL(clicked()), miancalc, SLOT(on_buttons_clicked()));
+        QObject::connect(num6, SIGNAL(clicked()), miancalc, SLOT(on_buttons_clicked()));
+        QObject::connect(divide, SIGNAL(clicked()), miancalc, SLOT(on_buttons_clicked()));
+        QObject::connect(num1, SIGNAL(clicked()), miancalc, SLOT(on_buttons_clicked()));
+        QObject::connect(num2, SIGNAL(clicked()), miancalc, SLOT(on_buttons_clicked()));
+        QObject::connect(num3, SIGNAL(clicked()), miancalc, SLOT(on_buttons_clicked()));
+        QObject::connect(ac, SIGNAL(clicked()), miancalc, SLOT(on_buttons_clicked()));
+        QObject::connect(num0, SIGNAL(clicked()), miancalc, SLOT(on_buttons_clicked()));
+        QObject::connect(dot, SIGNAL(clicked()), miancalc, SLOT(on_buttons_clicked()));
+        QObject::connect(equal, SIGNAL(clicked()), miancalc, SLOT(on_buttons_clicked()));
+        QObject::connect(del, SIGNAL(clicked()), miancalc, SLOT(on_buttons_clicked()));
+        QObject::connect(equal, SIGNAL(clicked()), miancalc, SLOT(on_buttons_clicked()));
 
         QMetaObject::connectSlotsByName(miancalc);
     } // setupUi

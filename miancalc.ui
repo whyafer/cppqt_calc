@@ -290,7 +290,7 @@
    <sender>lbracket</sender>
    <signal>clicked()</signal>
    <receiver>miancalc</receiver>
-   <slot>Btn_onClick()</slot>
+   <slot>on_buttons_clicked()</slot>
    <hints>
     <hint type="sourcelabel">
      <x>75</x>
@@ -306,7 +306,7 @@
    <sender>rbracket</sender>
    <signal>clicked()</signal>
    <receiver>miancalc</receiver>
-   <slot>Btn_onClick()</slot>
+   <slot>on_buttons_clicked()</slot>
    <hints>
     <hint type="sourcelabel">
      <x>127</x>
@@ -322,7 +322,7 @@
    <sender>add</sender>
    <signal>clicked()</signal>
    <receiver>miancalc</receiver>
-   <slot>Btn_onClick()</slot>
+   <slot>on_buttons_clicked()</slot>
    <hints>
     <hint type="sourcelabel">
      <x>193</x>
@@ -338,7 +338,7 @@
    <sender>sub</sender>
    <signal>clicked()</signal>
    <receiver>miancalc</receiver>
-   <slot>Btn_onClick()</slot>
+   <slot>on_buttons_clicked()</slot>
    <hints>
     <hint type="sourcelabel">
      <x>246</x>
@@ -354,7 +354,7 @@
    <sender>num7</sender>
    <signal>clicked()</signal>
    <receiver>miancalc</receiver>
-   <slot>Btn_onClick()</slot>
+   <slot>on_buttons_clicked()</slot>
    <hints>
     <hint type="sourcelabel">
      <x>62</x>
@@ -370,7 +370,7 @@
    <sender>num8</sender>
    <signal>clicked()</signal>
    <receiver>miancalc</receiver>
-   <slot>Btn_onClick()</slot>
+   <slot>on_buttons_clicked()</slot>
    <hints>
     <hint type="sourcelabel">
      <x>137</x>
@@ -386,7 +386,7 @@
    <sender>num9</sender>
    <signal>clicked()</signal>
    <receiver>miancalc</receiver>
-   <slot>Btn_onClick()</slot>
+   <slot>on_buttons_clicked()</slot>
    <hints>
     <hint type="sourcelabel">
      <x>191</x>
@@ -402,7 +402,7 @@
    <sender>times</sender>
    <signal>clicked()</signal>
    <receiver>miancalc</receiver>
-   <slot>Btn_onClick()</slot>
+   <slot>on_buttons_clicked()</slot>
    <hints>
     <hint type="sourcelabel">
      <x>252</x>
@@ -418,7 +418,7 @@
    <sender>num4</sender>
    <signal>clicked()</signal>
    <receiver>miancalc</receiver>
-   <slot>Btn_onClick()</slot>
+   <slot>on_buttons_clicked()</slot>
    <hints>
     <hint type="sourcelabel">
      <x>58</x>
@@ -434,7 +434,7 @@
    <sender>num5</sender>
    <signal>clicked()</signal>
    <receiver>miancalc</receiver>
-   <slot>Btn_onClick()</slot>
+   <slot>on_buttons_clicked()</slot>
    <hints>
     <hint type="sourcelabel">
      <x>137</x>
@@ -450,7 +450,7 @@
    <sender>num6</sender>
    <signal>clicked()</signal>
    <receiver>miancalc</receiver>
-   <slot>Btn_onClick()</slot>
+   <slot>on_buttons_clicked()</slot>
    <hints>
     <hint type="sourcelabel">
      <x>195</x>
@@ -466,7 +466,7 @@
    <sender>divide</sender>
    <signal>clicked()</signal>
    <receiver>miancalc</receiver>
-   <slot>Btn_onClick()</slot>
+   <slot>on_buttons_clicked()</slot>
    <hints>
     <hint type="sourcelabel">
      <x>244</x>
@@ -482,7 +482,7 @@
    <sender>num1</sender>
    <signal>clicked()</signal>
    <receiver>miancalc</receiver>
-   <slot>Btn_onClick()</slot>
+   <slot>on_buttons_clicked()</slot>
    <hints>
     <hint type="sourcelabel">
      <x>76</x>
@@ -498,7 +498,7 @@
    <sender>num2</sender>
    <signal>clicked()</signal>
    <receiver>miancalc</receiver>
-   <slot>Btn_onClick()</slot>
+   <slot>on_buttons_clicked()</slot>
    <hints>
     <hint type="sourcelabel">
      <x>116</x>
@@ -514,7 +514,7 @@
    <sender>num3</sender>
    <signal>clicked()</signal>
    <receiver>miancalc</receiver>
-   <slot>Btn_onClick()</slot>
+   <slot>on_buttons_clicked()</slot>
    <hints>
     <hint type="sourcelabel">
      <x>180</x>
@@ -530,7 +530,7 @@
    <sender>ac</sender>
    <signal>clicked()</signal>
    <receiver>miancalc</receiver>
-   <slot>Btn_onClick()</slot>
+   <slot>on_buttons_clicked()</slot>
    <hints>
     <hint type="sourcelabel">
      <x>257</x>
@@ -546,7 +546,7 @@
    <sender>num0</sender>
    <signal>clicked()</signal>
    <receiver>miancalc</receiver>
-   <slot>Btn_onClick()</slot>
+   <slot>on_buttons_clicked()</slot>
    <hints>
     <hint type="sourcelabel">
      <x>78</x>
@@ -562,7 +562,7 @@
    <sender>dot</sender>
    <signal>clicked()</signal>
    <receiver>miancalc</receiver>
-   <slot>Btn_onClick()</slot>
+   <slot>on_buttons_clicked()</slot>
    <hints>
     <hint type="sourcelabel">
      <x>137</x>
@@ -578,7 +578,7 @@
    <sender>equal</sender>
    <signal>clicked()</signal>
    <receiver>miancalc</receiver>
-   <slot>Btn_onClick()</slot>
+   <slot>on_buttons_clicked()</slot>
    <hints>
     <hint type="sourcelabel">
      <x>197</x>
@@ -594,7 +594,7 @@
    <sender>del</sender>
    <signal>clicked()</signal>
    <receiver>miancalc</receiver>
-   <slot>Btn_onClick()</slot>
+   <slot>on_buttons_clicked()</slot>
    <hints>
     <hint type="sourcelabel">
      <x>247</x>
@@ -610,7 +610,7 @@
    <sender>equal</sender>
    <signal>clicked()</signal>
    <receiver>miancalc</receiver>
-   <slot>Btn_onClick()</slot>
+   <slot>on_buttons_clicked()</slot>
    <hints>
     <hint type="sourcelabel">
      <x>171</x>
@@ -624,6 +624,6 @@
   </connection>
  </connections>
  <slots>
-  <slot>Btn_onClick()</slot>
+  <slot>on_buttons_clicked()</slot>
  </slots>
 </ui>

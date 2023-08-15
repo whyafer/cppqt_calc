@@ -19,7 +19,7 @@ miancalc::~miancalc() {
 
 bool isEqual = false;
 
-void miancalc::Btn_onClick() {
+void miancalc::on_buttons_clicked() {
 	QPushButton *btn = (QPushButton *) sender();
 	QString name = btn->objectName();//获取发送信息的按钮名
 
@@ -122,7 +122,7 @@ void miancalc::Btn_onClick() {
 		text = QString::fromStdString(std::to_string(answer));
 		isEqual = true;
 	} else if (name == "del") {
-		if (name.size() == 0) return;
+		if (text.size() == 0) return;
 		std::string tmp = text.toStdString();
 		tmp.erase(tmp.end() - 1);
 		text = QString::fromStdString(tmp);

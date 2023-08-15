@@ -149,7 +149,7 @@ build calculate_test_autogen/timestamp calculate_test_autogen/mocs_compilation.c
 #############################################
 # Phony custom command for CMakeFiles\calculate_test_autogen_timestamp_deps
 
-build CMakeFiles/calculate_test_autogen_timestamp_deps | ${cmake_ninja_workdir}CMakeFiles/calculate_test_autogen_timestamp_deps: phony E$:/jetBrains/QT/6.6.0/mingw_64/lib/libQt6Core.a E$:/jetBrains/QT/6.6.0/mingw_64/./bin/moc.exe E$:/jetBrains/QT/6.6.0/mingw_64/lib/libQt6Widgets.a E$:/jetBrains/QT/6.6.0/mingw_64/./bin/uic.exe E$:/jetBrains/QT/6.6.0/mingw_64/lib/libQt6Gui.a
+build CMakeFiles/calculate_test_autogen_timestamp_deps | ${cmake_ninja_workdir}CMakeFiles/calculate_test_autogen_timestamp_deps: phony E$:/jetBrains/QT/6.6.0/mingw_64/lib/libQt6Core.a E$:/jetBrains/QT/6.6.0/mingw_64/./bin/moc.exe E$:/jetBrains/QT/6.6.0/mingw_64/./bin/uic.exe E$:/jetBrains/QT/6.6.0/mingw_64/lib/libQt6Widgets.a E$:/jetBrains/QT/6.6.0/mingw_64/lib/libQt6Gui.a
 
 
 #############################################

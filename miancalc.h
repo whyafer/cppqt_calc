@@ -23,7 +23,7 @@ public:
 private:
 	Ui::miancalc *ui;
 private slots:
-	void Btn_onClick();
+	void on_buttons_clicked();
 };
 
 

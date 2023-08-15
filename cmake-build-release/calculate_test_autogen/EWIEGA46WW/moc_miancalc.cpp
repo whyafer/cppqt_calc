@@ -39,14 +39,14 @@ namespace {
 struct qt_meta_stringdata_CLASSmiancalcENDCLASS_t {};
 static constexpr auto qt_meta_stringdata_CLASSmiancalcENDCLASS = QtMocHelpers::stringData(
     "miancalc",
-    "Btn_onClick",
+    "on_buttons_clicked",
     ""
 );
 #else  // !QT_MOC_HAS_STRING_DATA
 struct qt_meta_stringdata_CLASSmiancalcENDCLASS_t {
     uint offsetsAndSizes[6];
     char stringdata0[9];
-    char stringdata1[12];
+    char stringdata1[19];
     char stringdata2[1];
 };
 #define QT_MOC_LITERAL(ofs, len) \
@@ -54,11 +54,11 @@ struct qt_meta_stringdata_CLASSmiancalcENDCLASS_t {
 Q_CONSTINIT static const qt_meta_stringdata_CLASSmiancalcENDCLASS_t qt_meta_stringdata_CLASSmiancalcENDCLASS = {
     {
         QT_MOC_LITERAL(0, 8),  // "miancalc"
-        QT_MOC_LITERAL(9, 11),  // "Btn_onClick"
-        QT_MOC_LITERAL(21, 0)   // ""
+        QT_MOC_LITERAL(9, 18),  // "on_buttons_clicked"
+        QT_MOC_LITERAL(28, 0)   // ""
     },
     "miancalc",
-    "Btn_onClick",
+    "on_buttons_clicked",
     ""
 };
 #undef QT_MOC_LITERAL
@@ -96,7 +96,7 @@ Q_CONSTINIT const QMetaObject miancalc::staticMetaObject = { {
     qt_incomplete_metaTypeArray<qt_meta_stringdata_CLASSmiancalcENDCLASS_t,
         // Q_OBJECT / Q_GADGET
         QtPrivate::TypeAndForceComplete<miancalc, std::true_type>,
-        // method 'Btn_onClick'
+        // method 'on_buttons_clicked'
         QtPrivate::TypeAndForceComplete<void, std::false_type>
     >,
     nullptr
@@ -108,7 +108,7 @@ void miancalc::qt_static_metacall(QObject *_o, QMetaObject::Call _c, int _id, vo
         auto *_t = static_cast<miancalc *>(_o);
         (void)_t;
         switch (_id) {
-        case 0: _t->Btn_onClick(); break;
+        case 0: _t->on_buttons_clicked(); break;
         default: ;
         }
     }

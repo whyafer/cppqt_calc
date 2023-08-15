@@ -50,7 +50,7 @@ cmake_ninja_workdir = E$:/jetBrains/TestProject/qt/calculate_test/cmake-build-de
 build cmake_object_order_depends_target_calculate_test: phony || calculate_test_autogen calculate_test_autogen/mocs_compilation.cpp calculate_test_autogen/timestamp calculate_test_autogen_timestamp_deps
 
 build CMakeFiles/calculate_test.dir/calculate_test_autogen/mocs_compilation.cpp.obj: CXX_COMPILER__calculate_test_Debug E$:/jetBrains/TestProject/qt/calculate_test/cmake-build-debug/calculate_test_autogen/mocs_compilation.cpp || cmake_object_order_depends_target_calculate_test
-  DEFINES = -DMINGW_HAS_SECURE_API=1 -DQT_CORE_LIB -DQT_GUI_LIB -DQT_WIDGETS_LIB -DUNICODE -DWIN32 -DWIN64 -D_ENABLE_EXTENDED_ALIGNED_STORAGE -D_UNICODE -D_WIN64
+  DEFINES = -DMINGW_HAS_SECURE_API=1 -DQT_CORE_LIB -DQT_GUI_LIB -DQT_NEEDS_QMAIN -DQT_WIDGETS_LIB -DUNICODE -DWIN32 -DWIN64 -D_ENABLE_EXTENDED_ALIGNED_STORAGE -D_UNICODE -D_WIN64
   DEP_FILE = CMakeFiles\calculate_test.dir\calculate_test_autogen\mocs_compilation.cpp.obj.d
   FLAGS = -g
   INCLUDES = -IE:/jetBrains/TestProject/qt/calculate_test/cmake-build-debug/calculate_test_autogen/include -isystem E:/jetBrains/QT/6.6.0/mingw_64/include/QtCore -isystem E:/jetBrains/QT/6.6.0/mingw_64/include -isystem E:/jetBrains/QT/6.6.0/mingw_64/mkspecs/win32-g++ -isystem E:/jetBrains/QT/6.6.0/mingw_64/include/QtGui -isystem E:/jetBrains/QT/6.6.0/mingw_64/include/QtWidgets
@@ -58,7 +58,7 @@ build CMakeFiles/calculate_test.dir/calculate_test_autogen/mocs_compilation.cpp.
   OBJECT_FILE_DIR = CMakeFiles\calculate_test.dir\calculate_test_autogen
 
 build CMakeFiles/calculate_test.dir/main.cpp.obj: CXX_COMPILER__calculate_test_Debug E$:/jetBrains/TestProject/qt/calculate_test/main.cpp || cmake_object_order_depends_target_calculate_test
-  DEFINES = -DMINGW_HAS_SECURE_API=1 -DQT_CORE_LIB -DQT_GUI_LIB -DQT_WIDGETS_LIB -DUNICODE -DWIN32 -DWIN64 -D_ENABLE_EXTENDED_ALIGNED_STORAGE -D_UNICODE -D_WIN64
+  DEFINES = -DMINGW_HAS_SECURE_API=1 -DQT_CORE_LIB -DQT_GUI_LIB -DQT_NEEDS_QMAIN -DQT_WIDGETS_LIB -DUNICODE -DWIN32 -DWIN64 -D_ENABLE_EXTENDED_ALIGNED_STORAGE -D_UNICODE -D_WIN64
   DEP_FILE = CMakeFiles\calculate_test.dir\main.cpp.obj.d
   FLAGS = -g
   INCLUDES = -IE:/jetBrains/TestProject/qt/calculate_test/cmake-build-debug/calculate_test_autogen/include -isystem E:/jetBrains/QT/6.6.0/mingw_64/include/QtCore -isystem E:/jetBrains/QT/6.6.0/mingw_64/include -isystem E:/jetBrains/QT/6.6.0/mingw_64/mkspecs/win32-g++ -isystem E:/jetBrains/QT/6.6.0/mingw_64/include/QtGui -isystem E:/jetBrains/QT/6.6.0/mingw_64/include/QtWidgets
@@ -66,7 +66,7 @@ build CMakeFiles/calculate_test.dir/main.cpp.obj: CXX_COMPILER__calculate_test_D
   OBJECT_FILE_DIR = CMakeFiles\calculate_test.dir
 
 build CMakeFiles/calculate_test.dir/miancalc.cpp.obj: CXX_COMPILER__calculate_test_Debug E$:/jetBrains/TestProject/qt/calculate_test/miancalc.cpp || cmake_object_order_depends_target_calculate_test
-  DEFINES = -DMINGW_HAS_SECURE_API=1 -DQT_CORE_LIB -DQT_GUI_LIB -DQT_WIDGETS_LIB -DUNICODE -DWIN32 -DWIN64 -D_ENABLE_EXTENDED_ALIGNED_STORAGE -D_UNICODE -D_WIN64
+  DEFINES = -DMINGW_HAS_SECURE_API=1 -DQT_CORE_LIB -DQT_GUI_LIB -DQT_NEEDS_QMAIN -DQT_WIDGETS_LIB -DUNICODE -DWIN32 -DWIN64 -D_ENABLE_EXTENDED_ALIGNED_STORAGE -D_UNICODE -D_WIN64
   DEP_FILE = CMakeFiles\calculate_test.dir\miancalc.cpp.obj.d
   FLAGS = -g
   INCLUDES = -IE:/jetBrains/TestProject/qt/calculate_test/cmake-build-debug/calculate_test_autogen/include -isystem E:/jetBrains/QT/6.6.0/mingw_64/include/QtCore -isystem E:/jetBrains/QT/6.6.0/mingw_64/include -isystem E:/jetBrains/QT/6.6.0/mingw_64/mkspecs/win32-g++ -isystem E:/jetBrains/QT/6.6.0/mingw_64/include/QtGui -isystem E:/jetBrains/QT/6.6.0/mingw_64/include/QtWidgets
@@ -74,7 +74,7 @@ build CMakeFiles/calculate_test.dir/miancalc.cpp.obj: CXX_COMPILER__calculate_te
   OBJECT_FILE_DIR = CMakeFiles\calculate_test.dir
 
 build CMakeFiles/calculate_test.dir/expression.cpp.obj: CXX_COMPILER__calculate_test_Debug E$:/jetBrains/TestProject/qt/calculate_test/expression.cpp || cmake_object_order_depends_target_calculate_test
-  DEFINES = -DMINGW_HAS_SECURE_API=1 -DQT_CORE_LIB -DQT_GUI_LIB -DQT_WIDGETS_LIB -DUNICODE -DWIN32 -DWIN64 -D_ENABLE_EXTENDED_ALIGNED_STORAGE -D_UNICODE -D_WIN64
+  DEFINES = -DMINGW_HAS_SECURE_API=1 -DQT_CORE_LIB -DQT_GUI_LIB -DQT_NEEDS_QMAIN -DQT_WIDGETS_LIB -DUNICODE -DWIN32 -DWIN64 -D_ENABLE_EXTENDED_ALIGNED_STORAGE -D_UNICODE -D_WIN64
   DEP_FILE = CMakeFiles\calculate_test.dir\expression.cpp.obj.d
   FLAGS = -g
   INCLUDES = -IE:/jetBrains/TestProject/qt/calculate_test/cmake-build-debug/calculate_test_autogen/include -isystem E:/jetBrains/QT/6.6.0/mingw_64/include/QtCore -isystem E:/jetBrains/QT/6.6.0/mingw_64/include -isystem E:/jetBrains/QT/6.6.0/mingw_64/mkspecs/win32-g++ -isystem E:/jetBrains/QT/6.6.0/mingw_64/include/QtGui -isystem E:/jetBrains/QT/6.6.0/mingw_64/include/QtWidgets
@@ -89,9 +89,10 @@ build CMakeFiles/calculate_test.dir/expression.cpp.obj: CXX_COMPILER__calculate_
 #############################################
 # Link the executable calculate_test.exe
 
-build calculate_test.exe: CXX_EXECUTABLE_LINKER__calculate_test_Debug CMakeFiles/calculate_test.dir/calculate_test_autogen/mocs_compilation.cpp.obj CMakeFiles/calculate_test.dir/main.cpp.obj CMakeFiles/calculate_test.dir/miancalc.cpp.obj CMakeFiles/calculate_test.dir/expression.cpp.obj | E$:/jetBrains/QT/6.6.0/mingw_64/lib/libQt6Widgets.a E$:/jetBrains/QT/6.6.0/mingw_64/lib/libQt6Gui.a E$:/jetBrains/QT/6.6.0/mingw_64/lib/libQt6Core.a || calculate_test_autogen calculate_test_autogen_timestamp_deps
+build calculate_test.exe: CXX_EXECUTABLE_LINKER__calculate_test_Debug CMakeFiles/calculate_test.dir/calculate_test_autogen/mocs_compilation.cpp.obj CMakeFiles/calculate_test.dir/main.cpp.obj CMakeFiles/calculate_test.dir/miancalc.cpp.obj CMakeFiles/calculate_test.dir/expression.cpp.obj | E$:/jetBrains/QT/6.6.0/mingw_64/lib/libQt6Widgets.a E$:/jetBrains/QT/6.6.0/mingw_64/lib/libQt6Gui.a E$:/jetBrains/QT/6.6.0/mingw_64/lib/libQt6Core.a E$:/jetBrains/QT/6.6.0/mingw_64/lib/libQt6EntryPoint.a || calculate_test_autogen calculate_test_autogen_timestamp_deps
   FLAGS = -g
-  LINK_LIBRARIES = E:/jetBrains/QT/6.6.0/mingw_64/lib/libQt6Widgets.a  E:/jetBrains/QT/6.6.0/mingw_64/lib/libQt6Gui.a  E:/jetBrains/QT/6.6.0/mingw_64/lib/libQt6Core.a  -lmpr  -luserenv  -ld3d11  -ldxgi  -ldxguid  -ld3d12  -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  LINK_FLAGS = -mwindows
+  LINK_LIBRARIES = E:/jetBrains/QT/6.6.0/mingw_64/lib/libQt6Widgets.a  E:/jetBrains/QT/6.6.0/mingw_64/lib/libQt6Gui.a  E:/jetBrains/QT/6.6.0/mingw_64/lib/libQt6Core.a  -lmpr  -luserenv  -lmingw32  E:/jetBrains/QT/6.6.0/mingw_64/lib/libQt6EntryPoint.a  -lshell32  -ld3d11  -ldxgi  -ldxguid  -ld3d12  -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
   OBJECT_DIR = CMakeFiles\calculate_test.dir
   POST_BUILD = cmd.exe /C "cd /D E:\jetBrains\TestProject\qt\calculate_test\cmake-build-debug && "E:\jetBrains\CLion 2022.2.4\bin\cmake\win\bin\cmake.exe" -E make_directory E:/jetBrains/TestProject/qt/calculate_test/cmake-build-debug/plugins/platforms/ && cd /D E:\jetBrains\TestProject\qt\calculate_test\cmake-build-debug && "E:\jetBrains\CLion 2022.2.4\bin\cmake\win\bin\cmake.exe" -E copy E:/jetBrains/QT/6.6.0/mingw_64/plugins/platforms/qwindows.dll E:/jetBrains/TestProject/qt/calculate_test/cmake-build-debug/plugins/platforms/ && cd /D E:\jetBrains\TestProject\qt\calculate_test\cmake-build-debug && "E:\jetBrains\CLion 2022.2.4\bin\cmake\win\bin\cmake.exe" -E copy E:/jetBrains/QT/6.6.0/mingw_64/bin/Qt6Core.dll E:/jetBrains/TestProject/qt/calculate_test/cmake-build-debug && cd /D E:\jetBrains\TestProject\qt\calculate_test\cmake-build-debug && "E:\jetBrains\CLion 2022.2.4\bin\cmake\win\bin\cmake.exe" -E copy E:/jetBrains/QT/6.6.0/mingw_64/bin/Qt6Gui.dll E:/jetBrains/TestProject/qt/calculate_test/cmake-build-debug && cd /D E:\jetBrains\TestProject\qt\calculate_test\cmake-build-debug && "E:\jetBrains\CLion 2022.2.4\bin\cmake\win\bin\cmake.exe" -E copy E:/jetBrains/QT/6.6.0/mingw_64/bin/Qt6Widgets.dll E:/jetBrains/TestProject/qt/calculate_test/cmake-build-debug"
   PRE_LINK = cd .
@@ -148,7 +149,7 @@ build calculate_test_autogen/timestamp calculate_test_autogen/mocs_compilation.c
 #############################################
 # Phony custom command for CMakeFiles\calculate_test_autogen_timestamp_deps
 
-build CMakeFiles/calculate_test_autogen_timestamp_deps | ${cmake_ninja_workdir}CMakeFiles/calculate_test_autogen_timestamp_deps: phony E$:/jetBrains/QT/6.6.0/mingw_64/lib/libQt6Gui.a E$:/jetBrains/QT/6.6.0/mingw_64/lib/libQt6Widgets.a E$:/jetBrains/QT/6.6.0/mingw_64/./bin/uic.exe E$:/jetBrains/QT/6.6.0/mingw_64/lib/libQt6Core.a E$:/jetBrains/QT/6.6.0/mingw_64/./bin/moc.exe
+build CMakeFiles/calculate_test_autogen_timestamp_deps | ${cmake_ninja_workdir}CMakeFiles/calculate_test_autogen_timestamp_deps: phony E$:/jetBrains/QT/6.6.0/mingw_64/lib/libQt6Core.a E$:/jetBrains/QT/6.6.0/mingw_64/./bin/moc.exe E$:/jetBrains/QT/6.6.0/mingw_64/lib/libQt6Widgets.a E$:/jetBrains/QT/6.6.0/mingw_64/lib/libQt6Gui.a E$:/jetBrains/QT/6.6.0/mingw_64/./bin/uic.exe
 
 
 #############################################

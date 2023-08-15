@@ -14,7 +14,8 @@ find_package(Qt6 COMPONENTS
         Widgets
         REQUIRED)
 
-add_executable(calculate_test main.cpp miancalc.cpp miancalc.h miancalc.ui expression.cpp expression.h)
+#加“WIN32”去掉控制台
+add_executable(calculate_test WIN32 main.cpp miancalc.cpp miancalc.h miancalc.ui expression.cpp expression.h)
 target_link_libraries(calculate_test
         Qt6::Core
         Qt6::Gui

@@ -1,0 +1,11 @@
+# ninja log v5
+5	655	7137919802091075	calculate_test_autogen/timestamp	ad46b90380fb23ab
+5	655	7137919802091075	calculate_test_autogen/mocs_compilation.cpp	ad46b90380fb23ab
+5	655	7137919802091075	E:/jetBrains/TestProject/qt/calculate_test/cmake-build-release/calculate_test_autogen/timestamp	ad46b90380fb23ab
+5	655	7137919802091075	E:/jetBrains/TestProject/qt/calculate_test/cmake-build-release/calculate_test_autogen/mocs_compilation.cpp	ad46b90380fb23ab
+666	1987	7137919816556769	CMakeFiles/calculate_test.dir/calculate_test_autogen/mocs_compilation.cpp.obj	96fe302cf8bdd645
+655	1768	7137919814366204	CMakeFiles/calculate_test.dir/expression.cpp.obj	5b500aa6eccc869d
+658	1960	7137919816281665	CMakeFiles/calculate_test.dir/main.cpp.obj	28d3df02672fec83
+662	2538	7137919822068317	CMakeFiles/calculate_test.dir/miancalc.cpp.obj	716a747eccd2ee59
+2538	2874	7137919823608842	calculate_test.exe	9b0ee5726bfbcbe8
+1	578	7137919857058127	build.ninja	5b582f2c8a434523

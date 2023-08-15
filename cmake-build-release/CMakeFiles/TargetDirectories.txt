@@ -1,0 +1,5 @@
+E:/jetBrains/TestProject/qt/calculate_test/cmake-build-release/CMakeFiles/calculate_test.dir
+E:/jetBrains/TestProject/qt/calculate_test/cmake-build-release/CMakeFiles/edit_cache.dir
+E:/jetBrains/TestProject/qt/calculate_test/cmake-build-release/CMakeFiles/rebuild_cache.dir
+E:/jetBrains/TestProject/qt/calculate_test/cmake-build-release/CMakeFiles/calculate_test_autogen_timestamp_deps.dir
+E:/jetBrains/TestProject/qt/calculate_test/cmake-build-release/CMakeFiles/calculate_test_autogen.dir
